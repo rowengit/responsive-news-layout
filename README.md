@@ -1,3 +1,9 @@
+切版練習
+ReactJS / Styled Component / RWD
+Bootstrap5: https://getbootstrap.com/
+Google Fonts: https://fonts.google.com/specimen/Poppins
+Font Awesome: https://fontawesome.com
+
 ### Reference
 https://github.com/Ronit-Manandhar/News-layout
 
