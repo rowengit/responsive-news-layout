@@ -37,11 +37,11 @@ const Wrapper = styled.section`
 	}
 `;
 
-export const Main = () => {
+export const Bagley = () => {
 	return (
 		<>
 			<h1 className="title">Bagley</h1>
-			<Wrapper className="bagley block">
+			<Wrapper className="block">
 				<p>September 30 2022</p>
 				<img src={cartoon03} alt="cartoon03" />
 				<p>Bagley Cartoon:Thunderdome Debate</p>
