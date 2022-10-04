@@ -6,6 +6,8 @@ import { News } from "./components/news";
 import { dataContext } from "./components/context";
 import { createGlobalStyle } from "styled-components";
 import { defColor, defGap } from "./def";
+import { Detail } from "./components/detail";
+import { PageNotFound } from "./components/404";
 
 const GlobalStyle = createGlobalStyle`
 		h1.title {
@@ -110,6 +112,8 @@ const RouterList = () => {
 		<Routes>
 			<Route path="/" element={<Main />} />
 			<Route path="/news" element={<News />} />
+			<Route path="/detail/:id" element={<Detail />} />
+			<Route path="*" element={<PageNotFound />} />
 		</Routes>
 	);
 };
