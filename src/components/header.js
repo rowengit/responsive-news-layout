@@ -94,7 +94,9 @@ export const Header = () => (
 	<HeaderWrapper>
 		<div>
 			<div>
-				<h1>News</h1>
+				<Link to="/">
+					<h1>News</h1>
+				</Link>
 				<span>{dayjs().format("dddd, MMMM D YYYY")}</span>
 			</div>
 		</div>

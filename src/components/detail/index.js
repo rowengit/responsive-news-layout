@@ -45,7 +45,6 @@ const Wrapper = styled.section`
 			h3,
 			button {
 				display: none;
-				top: -10px;
 			}
 
 			&.toggle {
@@ -59,7 +58,6 @@ const Wrapper = styled.section`
 				}
 
 				button {
-					top: auto;
 					bottom: 0.75rem;
 					left: 0.75rem;
 					background: ${defColor.black};
