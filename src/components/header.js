@@ -180,9 +180,9 @@ export const Header = () => (
 								</ul>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">
+								<Link className="nav-link" to="/news">
 									News
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to="/about">
