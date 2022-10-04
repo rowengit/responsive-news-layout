@@ -7,6 +7,7 @@ import { Art } from "./art";
 import { Bagley } from "./bagley";
 import { Columnists } from "./columnists";
 // import { dataContext } from "../context";
+import { Widget } from "../widget";
 
 export const Main = () => {
 	// const { setData } = useContext(dataContext);
@@ -16,14 +17,17 @@ export const Main = () => {
 	// }, []);
 
 	return (
-		<main>
-			<Top />
-			<Latest />
-			<NewsPolitics />
-			<MultiContent />
-			<Art />
-			<Bagley />
-			<Columnists />
-		</main>
+		<>
+			<Widget />
+			<main>
+				<Top />
+				<Latest />
+				<NewsPolitics />
+				<MultiContent />
+				<Art />
+				<Bagley />
+				<Columnists />
+			</main>
+		</>
 	);
 };
