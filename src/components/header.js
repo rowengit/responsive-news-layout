@@ -2,6 +2,7 @@ import dayjs from "dayjs";
 import styled from "styled-components";
 import nav from "../img/nav.jpg";
 import { defColor } from "../def";
+import { Link } from "react-router-dom";
 
 const HeaderWrapper = styled.header`
 	> div {
@@ -118,12 +119,12 @@ export const Header = () => (
 						id="navbarNavDropdown">
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a
+								<Link
+									to="/"
 									className="nav-link active"
-									aria-current="page"
-									href="#">
+									aria-current="page">
 									Home
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#">
@@ -184,9 +185,9 @@ export const Header = () => (
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">
+								<Link className="nav-link" to="/about">
 									About Us
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>

@@ -1,3 +1,4 @@
+// import { useContext, useEffect } from "react";
 import styled from "styled-components";
 import { defColor } from "../../def";
 import { Top } from "./top";
@@ -7,6 +8,7 @@ import { MultiContent } from "./multiContent";
 import { Art } from "./art";
 import { Bagley } from "./bagley";
 import { Columnists } from "./columnists";
+// import { dataContext } from "../context";
 
 const MainWrapper = styled.main`
 	padding: 2rem 4rem;
@@ -59,6 +61,12 @@ const MainWrapper = styled.main`
 `;
 
 export const Main = () => {
+	// const { setData } = useContext(dataContext);
+
+	// useEffect(() => {
+	// 	setData("Visit Main Page!");
+	// }, []);
+
 	return (
 		<MainWrapper>
 			<Top />
